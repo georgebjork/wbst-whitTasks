@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6802cc55-b209-49c2-8cc1-fd4a85c630de/resourceGroups/Whitworth-School-Projects/providers/Microsoft.Web/sites/whittasksdevnode",
+    "appService.deploySubpath": "."
+}
