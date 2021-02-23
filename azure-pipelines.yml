@@ -30,6 +30,6 @@ steps:
     azureSubscription: 'Azure subscription 1(6802cc55-b209-49c2-8cc1-fd4a85c630de)'
     appType: 'webApp'
     appName: 'WhitTasksDev'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
+    package: '$(System.DefaultWorkingDirectory)'
+    customWebConfig: '-Handler iisnode -NodeStartFile server.js -appType node'
 
