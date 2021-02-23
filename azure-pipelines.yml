@@ -27,3 +27,5 @@ steps:
     appType: 'webApp'
     WebAppName: 'whittasksdevnode'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+- task: PublishBuildArtifacts@1
