@@ -26,5 +26,5 @@ steps:
     appType: 'webApp'
     appName: 'WhitTasksDev'
     package: '$(System.DefaultWorkingDirectory)'
-    customWebConfig: '-Handler iisnode -NodeStartFile server.js -appType node'
+    customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
 
