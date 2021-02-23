@@ -19,3 +19,10 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+  - task: AzureRmWebAppDeployment@4
+    inputs:
+      ConnectionType: 'AzureRM'
+      azureSubscription: 'Azure subscription 1(6802cc55-b209-49c2-8cc1-fd4a85c630de)'
+      appType: 'webApp'
+      WebAppName: 'whittasksdevnode'
+      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
