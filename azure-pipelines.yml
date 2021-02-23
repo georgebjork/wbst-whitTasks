@@ -20,6 +20,11 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    publishLocation: 'pipeline'
+    
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure subscription 1(6802cc55-b209-49c2-8cc1-fd4a85c630de)'
