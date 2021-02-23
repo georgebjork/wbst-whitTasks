@@ -9,15 +9,20 @@ export const About = () => (
             <Container fluid className="mt-5 mb-5">
                 <CardDeck>
                     <Card className="bg-dark text-white">
-                        <Card.Img variant="top" src="./Images/George.jpg" />
-                        <Card.Title>Madeline Schiefelbein</Card.Title>
-                        <Card.Body>Madeline Schiefelbein is a sophomore at Whitworth University. Her major is Business Administration with a concentration in Accounting, and she is minoring in Information Technology.</Card.Body>
+                        <Card.Img variant="top" src="./Images/Madeline.jpg" />
+                        
+                        <Card.Body>
+                            <Card.Title>Madeline Schiefelbein</Card.Title>
+                            Madeline Schiefelbein is a sophomore at Whitworth University. Her major is Business Administration with a concentration in Accounting, and she is minoring in Information Technology.
+                        </Card.Body>
                     </Card>
 
                     <Card className="bg-dark text-white">
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Title>George Bjork</Card.Title>
-                        <Card.Body>George Bjork is a sophomore at Whitworth University. His major is  Computer Science and he is pursinging a minor in Business.</Card.Body>
+                        <Card.Img variant="top" src="./Images/George.jpg" />
+                        <Card.Body>
+                            <Card.Title>George Bjork</Card.Title>
+                            George Bjork is a sophomore at Whitworth University. His major is  Computer Science and he is pursinging a minor in Business.
+                        </Card.Body>
                     </Card>
                 </CardDeck>
             </Container>
