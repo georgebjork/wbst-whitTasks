@@ -17,15 +17,23 @@ export const Home = () => {
                         <Carousel>
                             <Carousel.Item>
                                 <img
-                                    className="d-block mx-auto"
-                                    src="./Images/App Renders/homepage.png"
+                                    className="d-block w-50 mx-auto"
+                                    src="./Images/App Renders/MyDay.png"
                                     alt="First slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                    className="d-block mx-auto"
-                                    src="./Images/App Renders/CampusLife.png"
+                                    className="d-block w-50 mx-auto"
+                                    src="./Images/App Renders/Menu.png"
+                                    alt="Second slide"
+                                />
+                            </Carousel.Item>
+
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-50 mx-auto"
+                                    src="./Images/App Renders/Calendar.png"
                                     alt="Second slide"
                                 />
                             </Carousel.Item>
