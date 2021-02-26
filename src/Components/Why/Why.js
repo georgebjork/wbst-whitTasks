@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
+import { withRouter } from 'react-router-dom';
 
-export const Why = () => (
-    <>
+
+class Why extends Component{
+    
+    render(){
+        return(
+            <>
         <Container className="col-10">
             <Container fluid className="text-muted p-3">
                 <h1 class="display-1 text-muted text-center mt-5 mb-5">Why Are We Making This App?</h1>
@@ -48,4 +53,8 @@ export const Why = () => (
 
         </Container>
     </>
-)
+        );
+    }
+}
+
+export default withRouter(Why)
