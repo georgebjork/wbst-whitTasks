@@ -1,4 +1,5 @@
-You can find an live example of this website here: https://whittasksdevnode.azurewebsites.net/
+You can find an live example of this website here: https://whittasksdevnode.azurewebsites.net/ 
+<br/>
 You can see the app we are building here: https://github.com/georgebjork/app-whitTasks
 
 # Getting Started with Create React App
