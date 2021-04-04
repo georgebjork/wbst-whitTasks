@@ -4,7 +4,10 @@ import { withRouter } from 'react-router-dom';
 
 class Home extends Component {
 
+   
+
     render() {
+        
         return (
             <>
                 <Container className="col-10">
@@ -14,7 +17,7 @@ class Home extends Component {
                         </Col>
 
                         <Col className="p-5">
-                            <Carousel>
+                            <Carousel variant="dark">
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-50 mx-auto"
